@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rounded Border using PIE</title>
+<style type="text/css">
+	body {
+		text-align:center;
+	}
+	div {
+		padding: 1em;
+		behavior: url(PIE/PIE.htc);
+		position: relative;
+		background: #3F95C2;	
+		color: #fff;
+		font-size: 20px;
+		width: 40%;
+		left: 0;
+		right: 0;
+		margin:0 auto;
+		margin-bottom:15px;
+	}
+	.all{
+		border-radius: 15px;
+		-moz-border-radius:15px;
+		-webkit-border-radius:15px;
+		-o-border-radius:15px;
+		-ms-border-radius:15px;
+	}
+	div.leftTop{
+		border-radius: 15px 0px 0px 0px;
+		-moz-border-radius: 15px 0px 0px 0px;
+		-webkit-border-radius: 15px 0px 0px 0px;
+		-o-border-radius: 15px 0px 0px 0px;
+		-ms-border-radius: 15px 0px 0px 0px;
+	}
+	div.leftBottom{
+		border-radius:0px 0px 0px 15px;
+		-moz-border-radius:0px 0px 0px 15px;
+		-webkit-border-radius:0px 0px 0px 15px;
+		-o-border-radius:0px 0px 0px 15px;
+		-ms-border-radius:0px 0px 0px 15px;
+	}
+	.rightTop{
+		border-radius:0px 15px 0px 0px;
+		-moz-border-radius:0px 15px 0px 0px;
+		-webkit-border-radius:0px 15px 0px 0px;
+		-o-border-radius:0px 15px 0px 0px;
+		-ms-border-radius:0px 15px 0px 0px;
+	}
+	.rightBottom{
+		border-radius:0px 0px 15px 0px;
+		-moz-border-radius:0px 0px 15px 0px;
+		-webkit-border-radius:0px 0px 15px 0px;
+		-o-border-radius:0px 0px 15px 0px;
+		-ms-border-radius:0px 0px 15px 0px;
+	}
+</style>
+</head>
+<body>
+	<h1>Rounded Corner for IE Browser.</h1>
+	<div class="all"><b>Rounded Corner Div - All Corner</b></div>
+	<div class="leftTop"><b>Rounded Corner Div - Left Top</b></div>
+	<div class="leftBottom"><b>Rounded Corner Div - Left Bottom</b></div>
+	<div class="rightTop"><b>Rounded Corner Div - Right Top</b></div>
+	<div class="rightBottom"><b>Rounded Corner Div - Right Bottom</b></div>
+</body>
+</html>
